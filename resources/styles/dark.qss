@@ -1,0 +1,108 @@
+/* Phase 1 UI polish：先給作品集展示用深色介面，後續再做更完整設計系統。 */
+QMainWindow {
+    background: #121722;
+}
+
+QMenuBar {
+    background: #171d2b;
+    color: #d8dee9;
+    border-bottom: 1px solid #2b3448;
+}
+
+QMenuBar::item:selected {
+    background: #26324a;
+}
+
+QMenu {
+    background: #171d2b;
+    color: #d8dee9;
+    border: 1px solid #2b3448;
+}
+
+QMenu::item:selected {
+    background: #2f3d5c;
+}
+
+QToolBar {
+    background: #171d2b;
+    border-bottom: 1px solid #2b3448;
+    spacing: 6px;
+    padding: 4px;
+}
+
+QToolButton {
+    color: #d8dee9;
+    background: transparent;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+QToolButton:hover {
+    background: #26324a;
+}
+
+QDockWidget {
+    color: #d8dee9;
+    titlebar-close-icon: none;
+    titlebar-normal-icon: none;
+}
+
+QDockWidget::title {
+    background: #171d2b;
+    color: #d8dee9;
+    padding: 6px;
+    border: 1px solid #2b3448;
+}
+
+QWidget {
+    color: #d8dee9;
+    background: #121722;
+    font-size: 13px;
+}
+
+QTreeWidget,
+QListWidget,
+QTableWidget,
+QPlainTextEdit,
+QTextEdit,
+QLineEdit {
+    background: #0f1420;
+    color: #d8dee9;
+    border: 1px solid #2b3448;
+    border-radius: 4px;
+    selection-background-color: #3d5a80;
+    selection-color: #ffffff;
+}
+
+QLineEdit {
+    padding: 6px;
+}
+
+QHeaderView::section {
+    background: #1c2536;
+    color: #d8dee9;
+    padding: 5px;
+    border: 1px solid #2b3448;
+}
+
+QTabWidget::pane {
+    border: 1px solid #2b3448;
+}
+
+QTabBar::tab {
+    background: #171d2b;
+    color: #aeb8c8;
+    padding: 7px 12px;
+    border: 1px solid #2b3448;
+}
+
+QTabBar::tab:selected {
+    background: #26324a;
+    color: #ffffff;
+}
+
+QStatusBar {
+    background: #171d2b;
+    color: #aeb8c8;
+    border-top: 1px solid #2b3448;
+}
